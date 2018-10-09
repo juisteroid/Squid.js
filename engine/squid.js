@@ -548,7 +548,7 @@
         me.getTextNodes(dom);
         let children = [].slice.call(dom.children);
         children.forEach(function(child) {
-ßßßß          let ck = child.getAttribute("sq-context");
+          let ck = child.getAttribute("sq-context");
           if (child.hasAttribute("sq-repeat")) {
             ck = child.getAttribute("sq-repeat");
             let attrs = me.getAttributesWithData(child);

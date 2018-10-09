@@ -8,5 +8,6 @@ just.newModule("MyModule", {
     this._files = "files";
 });
 
+console.log(just);
 
 // let repeater = just.MyModule.newComponent("repeater");
